@@ -5,7 +5,7 @@
 \alias{LearnerDensKDEks}
 \title{Density KS Kernel Learner}
 \description{
-A \link[mlr3:LearnerDens]{mlr3::LearnerDens} implementing kdeKS from package
+A \link[mlr3proba:LearnerDens]{mlr3proba::LearnerDens} implementing kdeKS from package
 \CRANpkg{ks}.
 Calls \code{\link[ks:kde]{ks::kde()}}.
 }

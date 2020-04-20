@@ -3,7 +3,7 @@
 #' @name mlr_learners_dens.kdeKS
 #'
 #' @description
-#' A [mlr3::LearnerDens] implementing kdeKS from package
+#' A [mlr3proba::LearnerDens] implementing kdeKS from package
 #'   \CRANpkg{ks}.
 #' Calls [ks::kde()].
 #'
