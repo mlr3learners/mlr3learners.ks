@@ -21,7 +21,6 @@ Suggests:
     checkmate,
     distr6,
     ks,
-    pracma,
     rmarkdown,
     testthat
 Encoding: UTF-8
