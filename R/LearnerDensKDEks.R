@@ -59,16 +59,16 @@ LearnerDensKDEks = R6Class("LearnerDensKDEks",
 
       data = task$truth()
 
-      pdf <- function(x1) {
+      pdf <- function(x) {
       }
       body(pdf) <- substitute({
-        invoke(ks::kde, x = data, eval.points = x1, .args = pars)$estimate
+        invoke(ks::kde, x = data, eval.points = x, .args = pars)$estimate
       })
 
       distr6::Distribution$new(
         name = "ks KDE",
         short_name = "ksKDE",
-        pdf = pdf)
+        pdf = pdf, type = set6::Reals$new())
     },
 
     .predict = function(task) {
